@@ -168,8 +168,7 @@
         :pr: 4358
         :issue: 4358
 
-        Remove the deprecated module ``litestar.contrib.minijnja``. Module was created with a typo,
-        the typo module is removed. Instead ``litestar.contrib.minijinja`` should be used.
+        Remove the deprecated module ``litestar.contrib.minijnja``. This module was created with a typo in its name (`minijnja` instead of `minijinja`). Instead ``litestar.contrib.minijinja`` should be used.
 
     .. change:: Add ``round_trip`` parameter to ``PydanticPlugin``
         :type: feature
